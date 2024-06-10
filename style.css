@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    border-bottom: 5px solid black;
+}
+#Links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    background-color: aqua;
+
+}
+
+#Links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+
+}
+
+#Links li a:hover {
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+.logo img {
+    height: 80px;
+    background-color: aqua;
+
+}
+
+.logo{
+    background-color: aqua;
+
+}
+
+section {
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.imgbox img, .imgbox2 img, .container2 .image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.about {
+    margin-top: 60px;
+    text-align: left;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-content p:hover{
+    background-color: aqua;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+
+.imgbox2 img{
+    height: 50vh;
+    width:50vh;
+}
+.container2 {
+    display: flex;
+    gap: 40px;
+}
+
+.textbox p:hover{
+    background-color: aqua;
+    transition: 0.5s ease;
+}
+
+.textbox {
+    flex: 1;
+}
+
+.socials {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+}
+
+.box img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
